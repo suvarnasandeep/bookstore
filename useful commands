@@ -1,0 +1,10 @@
+ 
+ task
+ -----------------------
+ mvn clean package   
+ 
+ To run application
+ - start db
+ sandeep-bookstore\deployment\docker-compose> docker compose -f infra.yml up -d
+ -start application - CatalogServiceApplication
+ 
